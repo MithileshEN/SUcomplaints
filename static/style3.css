@@ -1,0 +1,102 @@
+/* Reset some default styles */
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://cdn-media-2.freecodecamp.org/w1280/5f9c9cfc740569d1a4ca3543.jpg');
+    background-size: cover;
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Style the header */
+header {
+   
+    color:white; /* Text color for the header */
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+/* Style the main content */
+main {
+    text-align: center;
+}
+.out {
+    background-color:white; /* White background color for the form */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+/* Style the form */
+form {
+    background-color: #fff; /* White background color for the form */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(41, 105, 207);
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    background-color: #0074d9; /* Blue button color */
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style the "Login to View Complaints" button */
+.button {
+    display: inline-block;
+    background-color: #0074d9; /* Blue button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

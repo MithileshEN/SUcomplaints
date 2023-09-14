@@ -1,0 +1,76 @@
+/* Reset some default styles */
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a dark gradient background */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://cdn-media-2.freecodecamp.org/w1280/5f9c9cfc740569d1a4ca3543.jpg');
+    background-size: cover;
+    color:white
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the content */
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the header */
+header {
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+a.button {
+    display: inline-block;
+    background-color:white;
+    color: blue;
+    padding: 10px 20px;
+    
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+a.button:hover {
+    background-color:orange;
+    color:white
+}
+
+/* Style the complaints table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.933); /* Light-colored background */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #110101;
+    font-weight: bold;
+    color:black;
+    text-decoration: solid;
+    background-color:white;/* Text color inside the table */
+}
+
+th {
+    background-color:white;
+    text-align: center;
+    color:black
+}
+

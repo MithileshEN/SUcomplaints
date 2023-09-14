@@ -1,0 +1,84 @@
+/* Reset some default styles */
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://cdn-media-2.freecodecamp.org/w1280/5f9c9cfc740569d1a4ca3543.jpg'); /* Light gray background */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Style the container */
+.container {
+    text-align: center;
+    background-color: #fff; /* White container background */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+}
+
+/* Style the logo */
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the login box */
+.login-box h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.login-box label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(41, 105, 207);
+    border-radius: 3px;
+}
+
+.login-box input[type="submit"] {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    background-color: #0074d9; /* Blue button color */
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 1.2em;
+}
+
+.login-box input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Add spacing between elements */
+.login-box {
+    text-align: center;
+}
+
+.login-box label, .login-box input[type="text"], .login-box input[type="password"], .login-box input[type="submit"] {
+    margin-bottom: 10px;
+}
